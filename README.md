@@ -30,4 +30,27 @@ It's less costly to make a mistake on a diagram than after deploying infrastruct
 
 ![image](https://user-images.githubusercontent.com/58148717/119038308-957ad000-b978-11eb-9854-8fcc5cf1ae8d.png)
 
+This diagram consists of the following:
+
+A two-tier VPC with one public subnet and one private subnet.
+
+An Internet Gateway in the VPC.
+
+An ELB in the public subnet.
+
+A Network Address Translation EC2 instance in the public subnet.
+
+An EC2 auto-scaling group in the private subnet.
+
+A DynamoDB table.
+
+IAM role to control access to the DynamoDB table.
+
+SecurityGroups for the ELB, auto-scaling group, and NAT instance.
+
+The requirement that deployments should be easily repeatable means deployment of the AWS resources should be automated.
+
+AWS CloudFormation is an Infrastructure as Code tool that is designed for rapid and repeatable deployments of AWS infrastructure.
+
+AWS CloudFormation allows you to create a textual template that defines your desired infrastructure. 
 
