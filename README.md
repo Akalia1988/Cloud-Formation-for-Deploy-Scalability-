@@ -1,6 +1,6 @@
 # Cloud-Formation-for-Deploy-Scalability-
 
-imagine a business has tasked you with deploying a prototype of a new application. The business has given you the following requirements:
+Imagine a business has tasked you with deploying a prototype of a new application. The business has given you the following requirements:
 
 Deploy this xxxx application in AWS.
 
